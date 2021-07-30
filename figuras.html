@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figuras geométricas | Curso Práctico de JavaScript en Platzi</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Figuras geométricas
+    </h1>
+    <p>Este es el primer taller del curso práctico de JavaScript</p>
+  </header>
+
+  <section>
+    <h2>Calcula el área y perímetro de un cuadrado</h2>
+    <form>
+      <label for="InputCuadrado">
+        Escribe cuánto mide cada lado de tu cuadrado:
+      </label>
+      <input id="InputCuadrado" type="number" />
+      <button type="button" onclick="calcularPerimetroCuadrado()">
+        Calcular el perímetro
+      </button>
+      <button type="button" onclick="calcularAreaCuadrado()">
+        Calcular el área
+      </button>
+    </form>
+  </section>
+
+  <section>
+      <h2>Calula el perimetro de un triangulo</h2>
+      <label for="lado1">lado1</label>
+      <input id="lado1"type="number">
+      <label for="lado2">lado2</label>
+      <input id="lado2" type="number">
+      <label for="base">base</label>
+      <input id="base" type="number">
+      <button type="button" onclick="CalcularPerimetroTriangulo()">Calcular Perimetro</button>
+      <h2>Calcula el area de un triangulo</h2>
+      <label for="baset">base</label>
+      <input id="baset"type="number">
+      <label for="altura">altura</label>
+      <input id="altura"type="number">
+      <button type="button"onclick="CalcularAreaTriangulo()">Calcular Area</button>
+  </section>
+
+  <section>
+      <h2>Calcula el diametro, perimetro y area de un circulo</h2>
+        <label for="radio">radio</label>
+        <input id="radio" type="number">
+        <button type="button" onclick="CalcularDiametroCirculo()">diametro</button>
+        <button type="button" onclick="CalcularPerimetroCirculo()">perimetro</button>
+        <button type="button" onclick="CalcularAreaCirculo()">area</button>
+     
+  </section>
+  <section>
+      <h2>Calcular altura de un triangulo isosceles</h2>
+      <label for="ladoi1">lado1</label>
+      <input id="ladoi1"type="number">
+      <label for="ladoi2">lado2</label>
+      <input id="ladoi2"type="number">
+      <label for="basei">base</label>
+      <input id="basei"type="number">
+      <button type="button" onclick="CalcularAlturaIsosceles()">altura</button>
+  </section>
+
+  <script src="./figuras.js"></script>
+</body>
+</html>
